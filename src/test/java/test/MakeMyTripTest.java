@@ -70,11 +70,11 @@ public class MakeMyTripTest extends BaseTest {
 
         String txtExpectedValuePrice = "₹ 25,548";
 
-        System.out.println("Verification failed! Text is not as expected.");
-        System.out.println("Expected Text: " + txtExpectedValuePrice);
-        System.out.println("Actual Text: " + resultPage.getValuePrice());
+        System.out.println("Verification failed! Value Price is not as expected.");
+        System.out.println("Expected Result: " + txtExpectedValuePrice);
+        System.out.println("Actual Result: " + resultPage.getValuePrice());
 
-        Assert.fail("Verification failed! Text is not as expected.");
+        Assert.fail("Verification failed! Value Price is not as expected.");
 
         Utility.hardWait(2);
     }
