@@ -5,8 +5,8 @@
         <classes>
             <class name="test.MakeMyTripTest">
                 <methods>
-                    <include name="verifySubjectMailSuccess"/>
-                    <include name="verifySubjectMailFailed"/>
+                    <include name="VerifyTopValueFlightsSuccess"/>
+                    <include name="VerifyTopValueFlightsFailed"/>
                 </methods>
             </class>
         </classes>
